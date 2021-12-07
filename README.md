@@ -8,6 +8,10 @@ Let’s master the pandas basics. Learn how to inspect DataFrames and perform fu
 ## Introducing DataFrames
 
 ## Inspecting a DataFrame
+```python
+# Print the head of the homelessness data
+print(homelessness.head())
+```
 
 ## Parts of a DataFrame
 
