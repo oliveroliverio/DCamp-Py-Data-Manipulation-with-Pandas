@@ -6,6 +6,37 @@
 Let’s master the pandas basics. Learn how to inspect DataFrames and perform fundamental manipulations, including sorting rows, subsetting, and adding new columns.
 
 ## Introducing DataFrames
+![](img/2021-12-12-17-45-52.png)
+![](img/2021-12-12-17-46-04.png)
+![](img/2021-12-12-17-46-14.png)
+![](img/2021-12-12-17-46-20.png)
+![](img/2021-12-12-17-46-28.png)
+![](img/2021-12-12-17-46-35.png)
+![](img/2021-12-12-17-47-13.png)
+
+- whenever you get a new dataset, explore it ith .head()
+- .info() diplays names of columns
+
+![](img/2021-12-12-17-48-08.png)
+
+- .shape -> Displays rows, columns.  This is an attribute, not method, so no ()
+
+- describe computes summary stats
+
+![](img/2021-12-12-17-49-10.png)
+
+- values shows values in 2D numpy array
+
+
+![](img/2021-12-12-17-49-44.png)
+
+- indexs and columns
+
+![](img/2021-12-12-17-50-24.png)
+
+
+
+
 
 ## Inspecting a DataFrame
 ```python
