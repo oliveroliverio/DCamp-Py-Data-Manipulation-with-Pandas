@@ -61,11 +61,93 @@ print(homelessness.head())
 
 # Print information about homelessness
 print(homelessness.info())
+
+# Print the shape of homelessness
+# num of rows/cols
+print(homelessness.shape)
+
+# Print a description of homelessness
+# summary stats
+print(homelessness.describe())
 ```
+
+
 
 ## Parts of a DataFrame
 
+To better understand DataFrame objects, it's useful to know that they consist of three components, stored as attributes:
+
+- .values: A two-dimensional NumPy array of values.
+- .columns: An index of columns: the column names.
+- .index: An index for the rows: either row numbers or row names.
+
+You can usually think of indexes as a list of strings or numbers, though the pandas Index data type allows for more sophisticated options. (These will be covered later in the course.)
+
+homelessness is available.
+
+```python
+# Import pandas using the alias pd
+import pandas as pd
+
+# Print the values of homelessness
+print(homelessness.values)
+
+# Print the column index of homelessness
+print(homelessness.columns)
+
+# Print the row index of homelessness
+print(homelessness.index)
+```
+
 ## Sorting and subsetting
+![](img/2021-12-12-18-02-45.png)
+- sorting rows
+
+![](img/2021-12-12-18-03-01.png)
+
+- sort ascending
+
+![](img/2021-12-12-18-03-22.png)
+
+- sort by multiple features/variables
+
+![](img/2021-12-12-18-03-45.png)
+
+- now with specific orders
+
+![](img/2021-12-12-18-04-09.png)
+
+- zoom in just on one column
+
+![](img/2021-12-12-18-04-35.png)
+
+- subsetting multiple columns
+
+![](img/2021-12-12-18-05-19.png)
+
+- conditionally subset rows: getting logical vector
+
+![](img/2021-12-12-18-05-40.png)
+
+- conditionally subset rows: actually doing it
+
+![](img/2021-12-12-18-06-19.png)
+
+- subset rows based on text data
+
+![](img/2021-12-12-18-06-36.png)
+
+- subset based on dates
+
+![](img/2021-12-12-18-06-58.png)
+
+- subset based on multiple conditions
+
+![](img/2021-12-12-18-07-34.png)
+
+- filter on multiple values of categorical variable.  use `is.in()` method
+
+![](img/2021-12-12-18-08-37.png)
 
 ## Sorting rows
 
