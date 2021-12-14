@@ -330,6 +330,9 @@ print(result)
 # 2 Aggregating DataFrames
 In this chapter, you’ll calculate summary statistics on DataFrame columns, and master grouped summary statistics and pivot tables.
 ## Summary statistics
+![](img/2021-12-14-09-09-03.png)
+![](img/2021-12-14-09-09-28.png)
+![](img/2021-12-14-09-09-44.png)
 
 
 ## Mean and median
