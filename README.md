@@ -415,6 +415,7 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
 ```
 ## Cumulative statistics
 
+
 ## Counting
 
 ## Dropping duplicates
